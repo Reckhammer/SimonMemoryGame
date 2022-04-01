@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Light Memory Game</title>
+    <!-- Found online to make the title more colorful -->
+    <style>
+      .multicolortext {
+        background-image: linear-gradient(to left, violet, green, blue, yellow, red);
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+      }
+    </style>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!-- this is the start of content -->
+    <h1> <!-- Header/Title Section -->
+      <span class="multicolortext">Light and Sound Memory Game that is Totally Not Simon</span>
+    </h1>
+    <p> <!-- 'p' for paragraph. Written text here -->
+      Play the game by clicking the start button. Then repeat back the patterns to win!
+    </p>
+    
+    <!-- Buttons to start and stop the game -->
+    <button id = "startBtn" onclick="startGame()">
+      Start
+    </button>
+    <button id = "stopBtn" class="hidden" onclick="stopGame()">
+      Stop
+    </button>
+    
+    <!-- Area to keep the color btns for the game -->
+    <!-- Reminds me of Java Swing stuff from fundamentals. I guess they were useful afterall -->
+    <div id = "gameBtnArea">
+      <button id = "btn1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()"></button>
+      <button id = "btn2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()"></button>
+      <button id = "btn3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()"></button>
+      <button id = "btn4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()"></button>
+      <button id = "btn5" onclick="guess(5)" onmousedown="startTone(4)" onmouseup="stopTone()"></button>
+    </div>
+    
+  </body>
+</html>
