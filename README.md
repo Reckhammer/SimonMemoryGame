@@ -47,16 +47,20 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
-[YOUR ANSWER HERE]
+
+I used W3Schools to reference the syntax for the languages and to make the color gradient for the header. developer.mozilla.org was used to get the syntax to make a random number within a range.
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
-[YOUR ANSWER HERE]
+
+A challenge I had was the change in languages. As with any new language, I didn't know the syntax, so I would experience some frustration since my usual way doesn't work exactly as I'm used to. I would get around this problem with syntax by referencing documentation or tutorials online. Besides the syntax, I am very used to Java and C++, so my instincts wanted me to somehow contain data and functionality into a class or some sort of container. I had trouble organizing the project, but I got around this problem by recalling Java swing libraries that would be touched on in my programming fundamentals courses. The way you would organize those components with the components in web development felt very similar to me, so once I made that connection, the organization of the project came a lot easier
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+
+I am curious about the interactions between the 3 languages: HTML, CSS, and JavaScript. If I am understanding it correctly, I had put some CSS code in the HTML file to give the header the color gradient, so I'm unsure how exactly how the languages interact if one could be used in another's file. I've always heard that these 3 languages were the primary tools for web development and this could be the reason why.
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+
+I would like to add more features to the game. The main one would be some sort of indicator to let the player know that they clicked the wrong button with a noise, message box, text popup, or some other method to give the message. I also would've like to play with the sounds and looks of the game more. I wanted to look into putting in images or importing sounds, but I wanted to focus on the game features more.
 
 
 
